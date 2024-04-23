@@ -18,7 +18,7 @@ test('API PUT Request', async ({ request }) => {
 
         data: {
             "name": "Justyna",
-            "job": "leader"
+            "job": "sdet"
         }
     })
 
