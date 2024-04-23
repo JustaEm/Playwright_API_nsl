@@ -49,7 +49,7 @@ test('API POST Request', async ({ request }) => {
 
         data: {
             "name": "Justyna",
-            "job": "leader"
+            "job": "sdet"
         }
     })
 
