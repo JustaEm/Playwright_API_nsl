@@ -7,9 +7,7 @@ test('API DELETE Request', async ({ request }) => {
     const response = await request.delete('https://reqres.in/api/users/2');
     expect(response.status()).toBe(204);
     
-
 })
-
 
 
 test('API PUT Request', async ({ request }) => {
@@ -41,8 +39,6 @@ test('API GET Request', async ({ request }) => {
 })
 
 
-
-//
 test('API POST Request', async ({ request }) => {
 
     const response = await request.post('https://reqres.in/api/users', {
